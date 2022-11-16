@@ -12,9 +12,6 @@ int A = 1;
     {
        Console.WriteLine( A  );
     }
-    else
-    {
-       Console.WriteLine(  );
-    }
+   
    A++;
 }
