@@ -10,7 +10,7 @@ int A = 1;
     if ( A%2 ==0) 
 
     {
-       Console.Write( A  );
+       Console.WriteLine( A  );
     }
     else
     {
