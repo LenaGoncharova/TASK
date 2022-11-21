@@ -1,7 +1,7 @@
 ﻿//На входе число N, на выходе ряд из четных чисел от 1 до N
 
 Console.Clear();
-Console.WriteLine ("Введите число -  ");
+Console.Write ("Введите число -   ");
 int N = Convert.ToInt32( Console.ReadLine());
 int A = 1;
 
