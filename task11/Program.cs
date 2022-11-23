@@ -21,4 +21,4 @@ Console.WriteLine(number);
 
 int res = MinusMidlle(number);
 
-Console.WriteLine(res);
+Console.WriteLine($"{number}->{res}");
