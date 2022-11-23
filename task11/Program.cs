@@ -1,7 +1,7 @@
 ﻿// напишите программу, которая выводит случайное трехзначное число и удаляет вторую цифру этого числа 
 
  Console.Clear();
- int num = new Random().Next(100, 1000);
+ int num = Math.Abs(new Random().Next(100,1000 ));
   int first= num/100;
   int second= num%10; 
  Console.WriteLine($"{num}-> {first*10+second}");
@@ -14,8 +14,8 @@ int secontDigit = num % 10;
 int result = firstDigit * 10 + secontDigit;
 return result;
 }
-
-int number = new Random().Next(100, 1000);
+Console.Write("Введите целое трехзначное число- ");
+int number =Math.Abs(int.Parse(Console. ReadLine()));
 
 Console.WriteLine(number);
 
