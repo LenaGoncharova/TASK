@@ -1,17 +1,16 @@
 ﻿// Напишите программу, которая принимает на вход цифру, 
 // обозначающую день недели, и проверяет, является ли этот день выходным.
 
-Console.Write("Введи цифру, обозначающую день недели: ");
-int dayNumber = Convert.ToInt32(Console.ReadLine());
-
-void CheckingTheDayOfTheWeek (int dayNumber) {
-  if (dayNumber == 6 || dayNumber == 7) {
-  Console.WriteLine("(этот день выходной) -> да");
-  }
-  else if (dayNumber < 1 || dayNumber > 7) {
-    Console.WriteLine("это вообще не день недели");
-  }
-  else Console.WriteLine("(этот день не выходной) -> нет");
-}
-
-CheckingTheDayOfTheWeek(dayNumber);
+Console.Clear();
+Console.Write ("Введите  цифру дня  недели : ");
+int day=  Convert.ToInt32(Console.ReadLine());
+ 
+ string Week  ( int d)
+ {
+   if(d==6 ||d== 7) return " это выходной!";
+   if (d>=1 && d<=5) return "это будний день";
+   return "вы ошиблись";
+ }
+  
+  string week =Week  (day);
+  Console.WriteLine (week );
