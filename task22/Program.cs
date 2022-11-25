@@ -3,10 +3,10 @@
 Console.Clear();
 Console.Write("введите число N: ");
 int count = Convert.ToInt32(Console.ReadLine());
-int a = 1;
+
 int SquareNumber(int x)
 {
-    int y=1;
+    int count=1;
     while (x <= y)
     {
        int res = x * x;
