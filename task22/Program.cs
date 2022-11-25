@@ -29,7 +29,7 @@ int num1 = 1;
 while (num1 <= num)
 {
 int square = num1 * num1;
-Console.WriteLine($"{num1, 4} {square, 4}");
+ Console.WriteLine($"{num1, 4} {square, 4}");     цифра <4>- показывает количество отступов для выравния таблиц!!
 num1 ++;
 }
 }
