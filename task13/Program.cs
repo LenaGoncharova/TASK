@@ -7,7 +7,7 @@ Console.Clear();
 Console.Write ("введите любое целое число");
 int num= Math.Abs(Convert.ToInt32(Console.ReadLine()));
  
- int Therd ( int number)
+  void Therd ( int number)
  {
    if (number>=100 && number<1000) return number%10;
    if (number>=1000 && number<10000) return number%100;
