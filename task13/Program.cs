@@ -4,6 +4,24 @@
 // 645 -> 5  78 -> третьей цифры нет 32679 -> 6
 
 Console.Clear();
+// Console.Write ("введите любое целое число");
+// int num= Math.Abs(Convert.ToInt32(Console.ReadLine()));
+
+//  int Therd(int number)
+// {
+//     while (number > 1000)
+//     {
+//         number = number / 10;
+//     }
+//     return number % 10;
+// }
+// if (num > 99)
+// {
+//     int res = Therd(num);
+//     Console.WriteLine(res);
+// }
+// else Console.WriteLine("третьей цифры нет");
+
 Console.Write ("введите любое целое число");
 int num= Math.Abs(Convert.ToInt32(Console.ReadLine()));
  
@@ -16,5 +34,4 @@ int num= Math.Abs(Convert.ToInt32(Console.ReadLine()));
  }
  
 int therdNumber=Therd( num) ;
-Console.WriteLine ($"{num} -> {therdNumber}") ;
-
+Console.WriteLine ($"{num} -> {therdNumber}");

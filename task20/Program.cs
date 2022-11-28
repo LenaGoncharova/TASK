@@ -18,6 +18,7 @@ int y2 = int.Parse(Console.ReadLine());
 
 double Distance(int ax, int ay, int bx, int by)
 {
+
     return Math.Sqrt(Math.Pow((bx - ax),2)+ (Math.Pow((by - ay),2)));
 
 }
