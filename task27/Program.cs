@@ -2,24 +2,27 @@
 
 //  452 -> 11
 
-// 82 -> 10,  82 -> 10 ,9012 -> 12
+// 82 -> 10,  ,9012 -> 12
 Console.Clear();
 Console.Write("Введите первое число:   ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-int SummNumber(int num)
+int SumNumber(int num)
 {
-    int summ = 0;
-    while (num>=0)
+   int sum=0;
+   if (num<0)
+   num=Math.Abs(num);
+    while (num>0)
      {
-
-      num= num/10;  
-      
+       int num1=num%10;
+       sum = sum + num1;
+       num=num/10;
+    
      } 
-     return  summ+(num%10); 
+     return sum; 
 }
 
-int summNumber = SummNumber( number);
-Console.Write ($"{summNumber}");
+int sumNumber = SumNumber( number);
+Console.Write ($" сумма числа {number} = {sumNumber}");
 
 
